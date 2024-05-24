@@ -3,7 +3,7 @@
   import Markdown from "../components/markdown/Markdown.svelte";
 
   const md = `
-## ちょっと待てぃ！！１
+## ちょっと待てぃ！！
 
 \`\`\`svelte
 <div class="flex flex-col gap-2">
