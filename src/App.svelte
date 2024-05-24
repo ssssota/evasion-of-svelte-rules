@@ -19,10 +19,10 @@
       case "ArrowRight":
       case "Space":
       case "Enter":
-        // page.next();
+        scrollFn[page + 1]?.scrollIntoView();
         break;
       case "ArrowLeft":
-        // page.prev();
+        scrollFn[page - 1]?.scrollIntoView();
         break;
     }
   };
